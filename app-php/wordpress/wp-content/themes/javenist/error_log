@@ -1,0 +1,2 @@
+[10-Feb-2018 07:06:15 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/demopla/public_html/wordpress/javenist/wp-content/themes/javenist/index.php on line 17
+[21-Feb-2018 07:18:01 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/demopla/public_html/wordpress/javenist/wp-content/themes/javenist/index.php on line 17

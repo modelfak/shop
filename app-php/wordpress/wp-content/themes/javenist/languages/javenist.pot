@@ -1,0 +1,2532 @@
+# Copyright (C) 2014 the WordPress team
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Javenist 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/roadthemes\n"
+"POT-Creation-Date: 2018-02-24 09:41+0700\n"
+"PO-Revision-Date: 2015-12-14 21:10+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-KeywordsList: _e;_n;__;_x;_ex;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../javenist/404.php:18
+msgid "404"
+msgstr ""
+
+#: ../javenist/404.php:19
+msgid "PAGE NOT BE FOUND"
+msgstr ""
+
+#: ../javenist/404.php:20
+msgid ""
+"Sorry but the page you are looking for does not exist, have been removed, "
+"name changed or is temporarity unavailable."
+msgstr ""
+
+#: ../javenist/404.php:22
+msgid "Back to home"
+msgstr ""
+
+#: ../javenist/404.php:22
+msgid "Back to home page"
+msgstr ""
+
+#: ../javenist/archive.php:63 ../javenist/author.php:56
+#: ../javenist/category.php:56 ../javenist/functions.php:1250
+#: ../javenist/image.php:49 ../javenist/index.php:67 ../javenist/search.php:52
+#: ../javenist/single.php:45 ../javenist/tag.php:56
+#: ../javenist/theme-config.php:1189
+msgid "Blog"
+msgstr ""
+
+#: ../javenist/author.php:81
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: ../javenist/author.php:110
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: ../javenist/category.php:75
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:327
+#: ../javenist/functions.php:1692
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:328
+#: ../javenist/functions.php:1693
+msgid "Install Plugins"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:330
+#: ../javenist/functions.php:1694
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:333
+#: ../javenist/functions.php:1695
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:385
+#: ../javenist/functions.php:1706
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:386
+#: ../javenist/class-tgm-plugin-activation.php:827
+#: ../javenist/class-tgm-plugin-activation.php:2533
+#: ../javenist/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:387
+#: ../javenist/class-tgm-plugin-activation.php:3159
+#: ../javenist/functions.php:1707
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:388
+#: ../javenist/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:934
+#: ../javenist/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2342
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2482
+msgid "unknown"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:3509
+#: ../javenist/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:3509
+#: ../javenist/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../javenist/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../javenist/comments.php:32 ../javenist/content-audio.php:119
+#: ../javenist/content-gallery.php:120 ../javenist/content-image.php:121
+#: ../javenist/content-video.php:118 ../javenist/content.php:121
+#: ../javenist/functions.php:1480
+msgid "1 comment"
+msgstr ""
+
+#: ../javenist/comments.php:52 ../twentyfifteen/comments.php:69
+#: ../twentyseventeen/comments.php:75 ../twentysixteen/comments.php:69
+msgid "Comments are closed."
+msgstr ""
+
+#: ../javenist/content-audio.php:49 ../javenist/content-audio.php:64
+#: ../javenist/content-audio.php:81 ../javenist/content-gallery.php:49
+#: ../javenist/content-gallery.php:65 ../javenist/content-gallery.php:83
+#: ../javenist/content-image.php:52 ../javenist/content-image.php:67
+#: ../javenist/content-image.php:84 ../javenist/content-video.php:49
+#: ../javenist/content-video.php:64 ../javenist/content-video.php:81
+#: ../javenist/content.php:52 ../javenist/content.php:67
+#: ../javenist/content.php:84
+msgid "Posted by"
+msgstr ""
+
+#: ../javenist/content-audio.php:96 ../javenist/content-gallery.php:98
+#: ../javenist/content-image.php:99 ../javenist/content-video.php:96
+#: ../javenist/content.php:99
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../javenist/content-audio.php:97 ../javenist/content-gallery.php:99
+#: ../javenist/content-image.php:100 ../javenist/content-page.php:20
+#: ../javenist/content-video.php:97 ../javenist/content.php:100
+#: ../javenist/image.php:122 ../twentyfifteen/content-link.php:36
+#: ../twentyfifteen/content-page.php:25 ../twentyfifteen/content.php:38
+#: ../twentyfifteen/image.php:59
+#: ../twentyseventeen/template-parts/page/content-page.php:25
+#: ../twentyseventeen/template-parts/post/content-audio.php:88
+#: ../twentyseventeen/template-parts/post/content-gallery.php:75
+#: ../twentyseventeen/template-parts/post/content-image.php:64
+#: ../twentyseventeen/template-parts/post/content-video.php:87
+#: ../twentyseventeen/template-parts/post/content.php:61
+#: ../twentysixteen/image.php:56
+#: ../twentysixteen/template-parts/content-page.php:23
+#: ../twentysixteen/template-parts/content-single.php:25
+#: ../twentysixteen/template-parts/content.php:33
+msgid "Pages:"
+msgstr ""
+
+#: ../javenist/content-audio.php:103 ../javenist/content-gallery.php:104
+#: ../javenist/content-image.php:105 ../javenist/content-video.php:102
+#: ../javenist/content.php:105
+msgid "Read more"
+msgstr ""
+
+#: ../javenist/content-audio.php:115 ../javenist/content-gallery.php:116
+#: ../javenist/content-image.php:117 ../javenist/content-video.php:114
+#: ../javenist/content.php:117 ../javenist/functions.php:1476
+msgid "0 comments"
+msgstr ""
+
+#: ../javenist/content-audio.php:117 ../javenist/content-gallery.php:118
+#: ../javenist/content-image.php:119 ../javenist/content-video.php:116
+#: ../javenist/content.php:119 ../javenist/functions.php:1478
+#: ../javenist/functions.php:1524 ../javenist/include/shortcodes.php:429
+msgid " comments"
+msgstr ""
+
+#: ../javenist/content-audio.php:145 ../javenist/content-gallery.php:146
+#: ../javenist/content-image.php:147 ../javenist/content-video.php:144
+#: ../javenist/content.php:147
+msgid "About the Author:"
+msgstr ""
+
+#: ../javenist/content-audio.php:157 ../javenist/content-gallery.php:158
+#: ../javenist/content-image.php:159 ../javenist/content-video.php:150
+#: ../javenist/content.php:159
+msgid "Related posts"
+msgstr ""
+
+#: ../javenist/content-gallery.php:54 ../javenist/content-gallery.php:70
+msgid "On"
+msgstr ""
+
+#: ../javenist/content-none.php:13 ../javenist/index.php:114
+#: ../javenist/search.php:85 ../twentyfifteen/content-none.php:15
+#: ../twentyseventeen/search.php:21
+#: ../twentyseventeen/template-parts/post/content-none.php:17
+#: ../twentysixteen/template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: ../javenist/content-none.php:17 ../javenist/index.php:118
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: ../javenist/functions.php:224 ../javenist/functions.php:840
+#: ../javenist/functions.php:846 ../javenist/functions.php:850
+msgid "Search..."
+msgstr ""
+
+#: ../javenist/functions.php:243 ../javenist/functions.php:824
+#: ../javenist/functions.php:830 ../javenist/functions.php:834
+msgid "Search product..."
+msgstr ""
+
+#: ../javenist/functions.php:398 ../twentyfifteen/functions.php:85
+#: ../twentysixteen/functions.php:88
+msgid "Primary Menu"
+msgstr ""
+
+#: ../javenist/functions.php:399 ../twentyseventeen/functions.php:63
+#: ../twentyseventeen/functions.php:183
+msgid "Top Menu"
+msgstr ""
+
+#: ../javenist/functions.php:400
+msgid "Mobile Menu"
+msgstr ""
+
+#: ../javenist/functions.php:401 ../javenist/include/map_shortcodes.php:48
+#: ../javenist/theme-config.php:505
+msgid "Categories Menu"
+msgstr ""
+
+#: ../javenist/functions.php:929 ../twentyseventeen/functions.php:315
+msgid "Blog Sidebar"
+msgstr ""
+
+#: ../javenist/functions.php:931
+msgid "Sidebar on blog page"
+msgstr ""
+
+#: ../javenist/functions.php:939
+msgid "Shop Sidebar"
+msgstr ""
+
+#: ../javenist/functions.php:941
+msgid "Sidebar on shop page (only sidebar shop layout)"
+msgstr ""
+
+#: ../javenist/functions.php:949
+msgid "Detail Sidebar"
+msgstr ""
+
+#: ../javenist/functions.php:951
+msgid "Sidebar on detail page (only sidebar detail layout)"
+msgstr ""
+
+#: ../javenist/functions.php:959
+msgid "Pages Sidebar"
+msgstr ""
+
+#: ../javenist/functions.php:961
+msgid "Sidebar on content pages"
+msgstr ""
+
+#: ../javenist/functions.php:998
+msgid ""
+"This content will be used to replace the featured image, use shortcode here"
+msgstr ""
+
+#: ../javenist/functions.php:1019
+msgid "Select a custom sidebar for this post/page"
+msgstr ""
+
+#: ../javenist/functions.php:1038
+msgid "Sidebar position"
+msgstr ""
+
+#: ../javenist/functions.php:1055
+msgid "Post featured content"
+msgstr ""
+
+#: ../javenist/functions.php:1061 ../javenist/functions.php:1069
+msgid "Custom Sidebar"
+msgstr ""
+
+#: ../javenist/functions.php:1196 ../javenist/functions.php:1244
+msgid "Home"
+msgstr ""
+
+#: ../javenist/functions.php:1230 ../javenist/functions.php:1231
+#: ../javenist/functions.php:1232
+#, php-format
+msgid "Archive for: %s"
+msgstr ""
+
+#: ../javenist/functions.php:1231
+msgid "F Y"
+msgstr ""
+
+#: ../javenist/functions.php:1232
+msgid "Y"
+msgstr ""
+
+#: ../javenist/functions.php:1233
+msgid "Archive for"
+msgstr ""
+
+#: ../javenist/functions.php:1234
+msgid "Blog Archives"
+msgstr ""
+
+#: ../javenist/functions.php:1235
+msgid "Search Results"
+msgstr ""
+
+#: ../javenist/functions.php:1319 ../javenist/functions.php:1331
+#: ../javenist/functions.php:1332 ../javenist/functions.php:1333
+#: ../twentyfifteen/functions.php:188 ../twentyfifteen/functions.php:196
+#: ../twentyfifteen/functions.php:204 ../twentyseventeen/functions.php:269
+#: ../twentysixteen/functions.php:203 ../twentysixteen/functions.php:208
+#: ../twentysixteen/functions.php:213
+msgid "on"
+msgstr ""
+
+#: ../javenist/functions.php:1368 ../javenist/single.php:79
+msgid "Post navigation"
+msgstr ""
+
+#: ../javenist/functions.php:1369
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../javenist/functions.php:1370
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../javenist/functions.php:1388 ../twentyfifteen/single.php:36
+#: ../twentyseventeen/comments.php:66 ../twentyseventeen/single.php:31
+#: ../twentysixteen/single.php:37
+msgid "Previous"
+msgstr ""
+
+#: ../javenist/functions.php:1389 ../twentyfifteen/single.php:33
+#: ../twentyseventeen/comments.php:67 ../twentyseventeen/single.php:32
+#: ../twentysixteen/single.php:34
+msgid "Next"
+msgstr ""
+
+#: ../javenist/functions.php:1413
+msgid "Pingback:"
+msgstr ""
+
+#: ../javenist/functions.php:1413
+msgid "(Edit)"
+msgstr ""
+
+#: ../javenist/functions.php:1432
+msgid "Post author"
+msgstr ""
+
+#: ../javenist/functions.php:1437
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../javenist/functions.php:1441 ../twentyseventeen/comments.php:60
+msgid "Reply"
+msgstr ""
+
+#: ../javenist/functions.php:1445
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../javenist/functions.php:1450 ../javenist/image.php:149
+#: ../twentyfifteen/content-link.php:56 ../twentyfifteen/content-page.php:35
+#: ../twentyfifteen/content-search.php:28
+#: ../twentyfifteen/content-search.php:33 ../twentyfifteen/content.php:57
+#: ../twentyfifteen/image.php:71
+msgid "Edit"
+msgstr ""
+
+#: ../javenist/functions.php:1485
+#, php-format
+msgid "%1$s "
+msgstr ""
+
+#: ../javenist/functions.php:1489
+#, php-format
+msgid "Tags: %1$s"
+msgstr ""
+
+#: ../javenist/functions.php:1500 ../twentyfifteen/author-bio.php:34
+#: ../twentysixteen/template-parts/biography.php:33
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../javenist/functions.php:1504
+#, php-format
+msgid "Posted by %1$s / %2$s"
+msgstr ""
+
+#: ../javenist/functions.php:1522 ../javenist/include/shortcodes.php:427
+msgid "<span>0</span> comments"
+msgstr ""
+
+#: ../javenist/functions.php:1526 ../javenist/include/shortcodes.php:431
+msgid "<span>1</span> comment"
+msgstr ""
+
+#: ../javenist/functions.php:1531
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: ../javenist/functions.php:1708
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../javenist/image.php:138
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
+"%5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</"
+"a>."
+msgstr ""
+
+#: ../javenist/image.php:159
+msgid "&larr; Previous"
+msgstr ""
+
+#: ../javenist/image.php:160
+msgid "Next &rarr;"
+msgstr ""
+
+#: ../javenist/include/javenistwidgets.php:8
+msgid "Javenist Widgets"
+msgstr ""
+
+#: ../javenist/include/javenistwidgets.php:11
+msgid "Display recent posts, comments, popular posts"
+msgstr ""
+
+#: ../javenist/include/javenistwidgets.php:128
+msgid "says"
+msgstr ""
+
+#: ../javenist/include/javenistwidgets.php:169
+msgid "Title:"
+msgstr ""
+
+#: ../javenist/include/javenistwidgets.php:173
+msgid "Amount:"
+msgstr ""
+
+#: ../javenist/include/javenistwidgets.php:177
+msgid "Image size (example: 50,50):"
+msgstr ""
+
+#: ../javenist/include/javenistwidgets.php:181
+msgid "Widget Type:"
+msgstr ""
+
+#: ../javenist/include/javenistwidgets.php:183
+msgid "Recent Posts"
+msgstr ""
+
+#: ../javenist/include/javenistwidgets.php:184
+msgid "Popular Posts"
+msgstr ""
+
+#: ../javenist/include/javenistwidgets.php:185
+msgid "Recent Comments"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:9 ../javenist/theme-config.php:206
+msgid "Logo"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:12
+#: ../javenist/include/map_shortcodes.php:33
+#: ../javenist/include/map_shortcodes.php:51
+#: ../javenist/include/map_shortcodes.php:61
+#: ../javenist/include/map_shortcodes.php:71
+#: ../javenist/include/map_shortcodes.php:79
+#: ../javenist/include/map_shortcodes.php:89
+#: ../javenist/include/map_shortcodes.php:99
+#: ../javenist/include/map_shortcodes.php:118
+#: ../javenist/include/map_shortcodes.php:149
+#: ../javenist/include/map_shortcodes.php:167
+#: ../javenist/include/map_shortcodes.php:198
+#: ../javenist/include/map_shortcodes.php:217
+#: ../javenist/include/map_shortcodes.php:275
+#: ../javenist/include/map_shortcodes.php:345
+#: ../javenist/include/map_shortcodes.php:363
+#: ../javenist/include/map_shortcodes.php:397
+#: ../javenist/include/map_shortcodes.php:665
+msgid "Theme"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:18
+msgid "Logo Link?"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:30
+msgid "Main Menu"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:39
+msgid "Upload sticky logo image"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:58
+msgid "Language, Currency Switcher"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:68
+msgid "Countdown time"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:76 ../javenist/theme-config.php:638
+#: ../javenist/theme-config.php:644
+msgid "Social Icons"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:86
+msgid "Mini Cart"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:96
+msgid "Product Search"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:115 ../javenist/theme-config.php:892
+msgid "Brand Logos"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:124
+#: ../javenist/include/map_shortcodes.php:173
+#: ../javenist/include/map_shortcodes.php:250
+msgid "Number of columns"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:126
+#: ../javenist/include/map_shortcodes.php:175
+msgid "6"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:132
+#: ../javenist/include/map_shortcodes.php:181
+#: ../javenist/include/map_shortcodes.php:258
+msgid "Number of rows"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:146
+msgid "List Sub Categories"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:155
+msgid "Category slug"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:164
+msgid "Categories Carousel"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:195
+msgid "Newsletter Form (MailPoet)"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:204
+msgid "Form ID"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:207
+msgid "Enter form ID here"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:214
+msgid "Latest posts"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:223
+msgid "Number of posts"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:225
+msgid "5"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:231
+msgid "Image scale"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:242
+msgid "Excerpt length"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:244
+msgid "20"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:252
+msgid "4"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:272 ../javenist/theme-config.php:1265
+msgid "Testimonials"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:281
+msgid "Number of testimonial"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:283
+msgid "10"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:289
+msgid "Display Author"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:300
+msgid "Display Avatar"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:311
+msgid "Avatar image size"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:314
+msgid "Avatar image size in pixels. Default is 50"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:320
+msgid "Display URL"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:331
+#: ../javenist/include/shortcodes.php:93
+msgid "Category"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:333
+msgid "0"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:334
+msgid "ID/slug of the category. Default is 0"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:342
+msgid "Rotating tweets"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:351
+msgid "Twitter user name"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:360
+msgid "Twitter feed"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:369
+msgid "Your Twitter Name(Without the \"@\" symbol)"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:377
+msgid "Number Of Tweets"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:394
+msgid "Google map"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:403
+msgid "Map Height"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:405
+msgid "400"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:406
+msgid "Map height in pixels. Default is 400"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:412
+msgid "Map Zoom"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:414
+msgid "17"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:415
+msgid "Map zoom level, min 0, max 21. Default is 17"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:421
+#: ../javenist/include/map_shortcodes.php:469
+#: ../javenist/include/map_shortcodes.php:517
+#: ../javenist/include/map_shortcodes.php:565
+#: ../javenist/include/map_shortcodes.php:613
+msgid "Latitude"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:430
+#: ../javenist/include/map_shortcodes.php:478
+#: ../javenist/include/map_shortcodes.php:526
+#: ../javenist/include/map_shortcodes.php:574
+#: ../javenist/include/map_shortcodes.php:622
+msgid "Longtitude"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:439
+#: ../javenist/include/map_shortcodes.php:487
+#: ../javenist/include/map_shortcodes.php:535
+#: ../javenist/include/map_shortcodes.php:583
+#: ../javenist/include/map_shortcodes.php:631
+msgid "Address"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:442
+#: ../javenist/include/map_shortcodes.php:490
+#: ../javenist/include/map_shortcodes.php:538
+#: ../javenist/include/map_shortcodes.php:586
+#: ../javenist/include/map_shortcodes.php:634
+msgid "If you donot enter coordinate, enter address here"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:449
+#: ../javenist/include/map_shortcodes.php:497
+#: ../javenist/include/map_shortcodes.php:545
+#: ../javenist/include/map_shortcodes.php:593
+#: ../javenist/include/map_shortcodes.php:641
+msgid "Marker image"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:452
+msgid "Upload marker image, image size: 40x46 px"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:459
+#: ../javenist/include/map_shortcodes.php:507
+#: ../javenist/include/map_shortcodes.php:555
+#: ../javenist/include/map_shortcodes.php:603
+#: ../javenist/include/map_shortcodes.php:651 ../javenist/theme-config.php:942
+msgid "Description"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:462
+msgid "Allowed HTML tags: a, i, em, br, strong, h1, h2, h3"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:500
+#: ../javenist/include/map_shortcodes.php:548
+#: ../javenist/include/map_shortcodes.php:596
+#: ../javenist/include/map_shortcodes.php:644
+msgid "Upload marker image"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:510
+msgid "Allowed HTML tags: a, i, em, br, strong, p, h2, h2, h3"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:558
+msgid "Allowed HTML tags: a, i, em, br, strong, p, h3, h3, h3"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:606
+msgid "Allowed HTML tags: a, i, em, br, strong, p, h4, h4, h4"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:654
+msgid "Allowed HTML tags: a, i, em, br, strong, p, h5, h5, h5"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:662
+msgid "Counter"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:671
+msgid "Image icon"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:674
+msgid "Upload icon image"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:680
+msgid "Number"
+msgstr ""
+
+#: ../javenist/include/map_shortcodes.php:688
+msgid "Text"
+msgstr ""
+
+#: ../javenist/include/shortcodes.php:96
+msgid "More Categories"
+msgstr ""
+
+#: ../javenist/include/shortcodes.php:97
+msgid "Close Menu"
+msgstr ""
+
+#: ../javenist/include/shortcodes.php:118
+msgid "language:"
+msgstr ""
+
+#: ../javenist/include/shortcodes.php:119
+msgid "currency:"
+msgstr ""
+
+#: ../javenist/include/shortcodes.php:184
+msgid "All Categories"
+msgstr ""
+
+#: ../javenist/include/shortcodes.php:447
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../javenist/include/wooajax.php:122
+#: ../javenist/woocommerce/cart/mini-cart.php:31
+#, php-format
+msgid "%d"
+msgstr ""
+
+#: ../javenist/include/wooajax.php:141
+msgid "Product is added to cart"
+msgstr ""
+
+#: ../javenist/include/wooajax.php:169
+msgid "View Cart"
+msgstr ""
+
+#: ../javenist/index.php:103
+msgid "No posts to display"
+msgstr ""
+
+#: ../javenist/index.php:107
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+
+#: ../javenist/search.php:69 ../twentyfifteen/search.php:18
+#: ../twentyseventeen/search.php:19 ../twentysixteen/search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../javenist/search.php:89
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../javenist/single.php:80
+msgid "&larr;"
+msgstr ""
+
+#: ../javenist/single.php:81
+msgid "&rarr;"
+msgstr ""
+
+#: ../javenist/tag.php:73
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../javenist/theme-config.php:97
+msgid "Section via hook"
+msgstr ""
+
+#: ../javenist/theme-config.php:98
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: ../javenist/theme-config.php:160
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: ../javenist/theme-config.php:177
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: ../javenist/theme-config.php:178
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: ../javenist/theme-config.php:179 ../twentyfifteen/inc/template-tags.php:102
+#: ../twentyseventeen/inc/template-tags.php:88
+#: ../twentysixteen/inc/template-tags.php:106
+msgid "Tags"
+msgstr ""
+
+#: ../javenist/theme-config.php:184
+#, php-format
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#: ../javenist/theme-config.php:184
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
+
+#: ../javenist/theme-config.php:198
+msgid "General"
+msgstr ""
+
+#: ../javenist/theme-config.php:199
+msgid "General theme options"
+msgstr ""
+
+#: ../javenist/theme-config.php:209 ../javenist/theme-config.php:1133
+msgid "Upload logo here."
+msgstr ""
+
+#: ../javenist/theme-config.php:215
+msgid "Body background"
+msgstr ""
+
+#: ../javenist/theme-config.php:216
+msgid "Upload image or select color. Only work with box layout"
+msgstr ""
+
+#: ../javenist/theme-config.php:223
+msgid "Page content background"
+msgstr ""
+
+#: ../javenist/theme-config.php:224
+msgid "Select background for page content (default: #ffffff)."
+msgstr ""
+
+#: ../javenist/theme-config.php:230
+msgid "Border Option"
+msgstr ""
+
+#: ../javenist/theme-config.php:231
+msgid "Only color validation can be done on this field type"
+msgstr ""
+
+#: ../javenist/theme-config.php:237
+msgid "Back To Top"
+msgstr ""
+
+#: ../javenist/theme-config.php:238
+msgid "Show back to top button on all pages"
+msgstr ""
+
+#: ../javenist/theme-config.php:246
+msgid "Colors"
+msgstr ""
+
+#: ../javenist/theme-config.php:247
+msgid "Color options"
+msgstr ""
+
+#: ../javenist/theme-config.php:253
+msgid "Primary Color"
+msgstr ""
+
+#: ../javenist/theme-config.php:254
+msgid "Pick a color for primary color (default: #eb3e32)."
+msgstr ""
+
+#: ../javenist/theme-config.php:264
+msgid "Sale Label BG Color"
+msgstr ""
+
+#: ../javenist/theme-config.php:265
+msgid "Pick a color for bg sale label (default: #333333)."
+msgstr ""
+
+#: ../javenist/theme-config.php:275
+msgid "Sale Label Text Color"
+msgstr ""
+
+#: ../javenist/theme-config.php:276
+msgid "Pick a color for sale label text (default: #ffffff)."
+msgstr ""
+
+#: ../javenist/theme-config.php:286
+msgid "Rating Star Color"
+msgstr ""
+
+#: ../javenist/theme-config.php:287
+msgid "Pick a color for star of rating (default: #f9ba48)."
+msgstr ""
+
+#: ../javenist/theme-config.php:296 ../twentysixteen/inc/customizer.php:160
+msgid "Link Color"
+msgstr ""
+
+#: ../javenist/theme-config.php:297
+msgid "Pick a color for link (default: #eb3e32)."
+msgstr ""
+
+#: ../javenist/theme-config.php:308
+msgid "Text selected background"
+msgstr ""
+
+#: ../javenist/theme-config.php:309
+msgid "Select background for selected text (default: #91b2c3)."
+msgstr ""
+
+#: ../javenist/theme-config.php:317
+msgid "Text selected color"
+msgstr ""
+
+#: ../javenist/theme-config.php:318
+msgid "Select color for selected text (default: #ffffff)."
+msgstr ""
+
+#: ../javenist/theme-config.php:346
+msgid "Header"
+msgstr ""
+
+#: ../javenist/theme-config.php:347
+msgid "Header options"
+msgstr ""
+
+#: ../javenist/theme-config.php:354
+msgid "Header Layout"
+msgstr ""
+
+#: ../javenist/theme-config.php:356 ../javenist/theme-config.php:597
+msgid "Go to Visual Composer => Templates to create/edit layout"
+msgstr ""
+
+#: ../javenist/theme-config.php:365
+msgid "Header background"
+msgstr ""
+
+#: ../javenist/theme-config.php:366 ../javenist/theme-config.php:607
+#: ../javenist/theme-config.php:1300
+msgid "Upload image or select color."
+msgstr ""
+
+#: ../javenist/theme-config.php:373
+msgid "Header text color"
+msgstr ""
+
+#: ../javenist/theme-config.php:374
+msgid "Pick a color for header color (default: #ffffff)."
+msgstr ""
+
+#: ../javenist/theme-config.php:383
+msgid "Header link color"
+msgstr ""
+
+#: ../javenist/theme-config.php:384
+msgid "Pick a color for header link color (default: #ffffff)."
+msgstr ""
+
+#: ../javenist/theme-config.php:397
+msgid "Sticky header"
+msgstr ""
+
+#: ../javenist/theme-config.php:403
+msgid "Use sticky header"
+msgstr ""
+
+#: ../javenist/theme-config.php:409
+msgid "Header sticky background"
+msgstr ""
+
+#: ../javenist/theme-config.php:439
+msgid "Top Bar"
+msgstr ""
+
+#: ../javenist/theme-config.php:447
+msgid "Top bar text color"
+msgstr ""
+
+#: ../javenist/theme-config.php:448
+msgid "Pick a color for top bar text color (default: #ffffff)."
+msgstr ""
+
+#: ../javenist/theme-config.php:457
+msgid "Top bar link color"
+msgstr ""
+
+#: ../javenist/theme-config.php:458
+msgid "Pick a color for top bar link color (default: #ffffff)."
+msgstr ""
+
+#: ../javenist/theme-config.php:471
+#: ../twentyseventeen/template-parts/navigation/navigation-top.php:17
+#: ../twentysixteen/header.php:47
+msgid "Menu"
+msgstr ""
+
+#: ../javenist/theme-config.php:477
+msgid "Mobile menu label"
+msgstr ""
+
+#: ../javenist/theme-config.php:478
+msgid "The label for mobile menu (example: Menu, Go to..."
+msgstr ""
+
+#: ../javenist/theme-config.php:485
+msgid "Submenu background"
+msgstr ""
+
+#: ../javenist/theme-config.php:486
+msgid "Pick a color for sub menu bg (default: #ffffff)."
+msgstr ""
+
+#: ../javenist/theme-config.php:495
+msgid "Submenu color"
+msgstr ""
+
+#: ../javenist/theme-config.php:496
+msgid "Pick a color for sub menu color (default: #7a7a7a)."
+msgstr ""
+
+#: ../javenist/theme-config.php:512
+msgid "Categories menu background"
+msgstr ""
+
+#: ../javenist/theme-config.php:513
+msgid "Pick a color for categories menu background (default: #ffffff)."
+msgstr ""
+
+#: ../javenist/theme-config.php:521
+msgid "Categories menu label"
+msgstr ""
+
+#: ../javenist/theme-config.php:522
+msgid "The label for categories menu"
+msgstr ""
+
+#: ../javenist/theme-config.php:528
+msgid "Number of items"
+msgstr ""
+
+#: ../javenist/theme-config.php:529
+msgid "Number of menu items level 1 to show, default value: 9"
+msgstr ""
+
+#: ../javenist/theme-config.php:539
+msgid "More items label"
+msgstr ""
+
+#: ../javenist/theme-config.php:540
+msgid "The label for more items button"
+msgstr ""
+
+#: ../javenist/theme-config.php:546
+msgid "Less items label"
+msgstr ""
+
+#: ../javenist/theme-config.php:547
+msgid "The label for less items button"
+msgstr ""
+
+#: ../javenist/theme-config.php:553
+msgid "Home Categories Menu"
+msgstr ""
+
+#: ../javenist/theme-config.php:554
+msgid "Always show categories menu on home page"
+msgstr ""
+
+#: ../javenist/theme-config.php:560
+msgid "Inner Categories Menu"
+msgstr ""
+
+#: ../javenist/theme-config.php:561
+msgid "Always show categories menu on inner pages"
+msgstr ""
+
+#: ../javenist/theme-config.php:587
+msgid "Footer"
+msgstr ""
+
+#: ../javenist/theme-config.php:588
+msgid "Footer options"
+msgstr ""
+
+#: ../javenist/theme-config.php:595
+msgid "Footer Layout"
+msgstr ""
+
+#: ../javenist/theme-config.php:606
+msgid "Footer background"
+msgstr ""
+
+#: ../javenist/theme-config.php:614
+msgid "Footer text color"
+msgstr ""
+
+#: ../javenist/theme-config.php:615
+msgid "Pick a color for top bar text color (default: #666666)."
+msgstr ""
+
+#: ../javenist/theme-config.php:624
+msgid "Footer link color"
+msgstr ""
+
+#: ../javenist/theme-config.php:625
+msgid "Pick a color for footer link color (default: #666666)."
+msgstr ""
+
+#: ../javenist/theme-config.php:645
+msgid "Enter social links"
+msgstr ""
+
+#: ../javenist/theme-config.php:646
+msgid "Drag/drop to re-arrange"
+msgstr ""
+
+#: ../javenist/theme-config.php:683
+msgid "Fonts"
+msgstr ""
+
+#: ../javenist/theme-config.php:684
+msgid "Fonts options"
+msgstr ""
+
+#: ../javenist/theme-config.php:691
+msgid "Body font"
+msgstr ""
+
+#: ../javenist/theme-config.php:708
+msgid "Main body font."
+msgstr ""
+
+#: ../javenist/theme-config.php:721
+msgid "Heading font"
+msgstr ""
+
+#: ../javenist/theme-config.php:738
+msgid "Heading font."
+msgstr ""
+
+#: ../javenist/theme-config.php:749
+msgid "Menu font"
+msgstr ""
+
+#: ../javenist/theme-config.php:766
+msgid "Menu font."
+msgstr ""
+
+#: ../javenist/theme-config.php:778
+msgid "Vertical Menu font"
+msgstr ""
+
+#: ../javenist/theme-config.php:795
+msgid "Vertical Menu font."
+msgstr ""
+
+#: ../javenist/theme-config.php:807
+msgid "Price font"
+msgstr ""
+
+#: ../javenist/theme-config.php:824
+msgid "Price font."
+msgstr ""
+
+#: ../javenist/theme-config.php:838
+msgid "Layout"
+msgstr ""
+
+#: ../javenist/theme-config.php:839
+msgid "Select page layout: Box or Full Width"
+msgstr ""
+
+#: ../javenist/theme-config.php:846 ../twentyseventeen/inc/customizer.php:77
+msgid "Page Layout"
+msgstr ""
+
+#: ../javenist/theme-config.php:856
+msgid "Box layout width"
+msgstr ""
+
+#: ../javenist/theme-config.php:857
+msgid "Box layout width in pixels, default value: 1170"
+msgstr ""
+
+#: ../javenist/theme-config.php:867
+msgid "Preset"
+msgstr ""
+
+#: ../javenist/theme-config.php:868
+msgid "Select a preset to quickly apply pre-defined colors and fonts"
+msgstr ""
+
+#: ../javenist/theme-config.php:883
+msgid "Show Style Switcher"
+msgstr ""
+
+#: ../javenist/theme-config.php:884
+msgid "The style switcher is only for preview on front-end"
+msgstr ""
+
+#: ../javenist/theme-config.php:893
+msgid "Upload brand logos and links"
+msgstr ""
+
+#: ../javenist/theme-config.php:899 ../javenist/theme-config.php:958
+#: ../javenist/theme-config.php:1272
+msgid "Auto scroll"
+msgstr ""
+
+#: ../javenist/theme-config.php:905
+msgid "Scroll amount"
+msgstr ""
+
+#: ../javenist/theme-config.php:906
+msgid "Number of logos to scroll one time, default value: 2"
+msgstr ""
+
+#: ../javenist/theme-config.php:916 ../javenist/theme-config.php:1242
+msgid "Pause in (seconds)"
+msgstr ""
+
+#: ../javenist/theme-config.php:917 ../javenist/theme-config.php:1243
+msgid "Pause time, default value: 3000"
+msgstr ""
+
+#: ../javenist/theme-config.php:927 ../javenist/theme-config.php:964
+#: ../javenist/theme-config.php:1253 ../javenist/theme-config.php:1279
+msgid "Animate in (seconds)"
+msgstr ""
+
+#: ../javenist/theme-config.php:928 ../javenist/theme-config.php:965
+#: ../javenist/theme-config.php:1254 ../javenist/theme-config.php:1280
+msgid "Animate time, default value: 2000"
+msgstr ""
+
+#: ../javenist/theme-config.php:938
+msgid "Logos"
+msgstr ""
+
+#: ../javenist/theme-config.php:939
+msgid "Upload logo image and enter logo link."
+msgstr ""
+
+#: ../javenist/theme-config.php:941 ../javenist/theme-config.php:978
+#: ../javenist/woocommerce/class-wc-widget-cart.php:30
+msgid "Title"
+msgstr ""
+
+#: ../javenist/theme-config.php:943 ../javenist/theme-config.php:980
+msgid "Link"
+msgstr ""
+
+#: ../javenist/theme-config.php:951
+msgid "Categories carousel"
+msgstr ""
+
+#: ../javenist/theme-config.php:952
+msgid "Upload category logos and links"
+msgstr ""
+
+#: ../javenist/theme-config.php:975
+msgid "Images"
+msgstr ""
+
+#: ../javenist/theme-config.php:976
+msgid "Upload Categories image and enter categories link."
+msgstr ""
+
+#: ../javenist/theme-config.php:979
+msgid "Number products"
+msgstr ""
+
+#: ../javenist/theme-config.php:988 ../twentysixteen/functions.php:156
+msgid "Sidebar"
+msgstr ""
+
+#: ../javenist/theme-config.php:989
+msgid "Sidebar options"
+msgstr ""
+
+#: ../javenist/theme-config.php:996
+msgid "Shop Sidebar Position"
+msgstr ""
+
+#: ../javenist/theme-config.php:997
+msgid "Sidebar on shop page"
+msgstr ""
+
+#: ../javenist/theme-config.php:1006
+msgid "Pages Sidebar Position"
+msgstr ""
+
+#: ../javenist/theme-config.php:1007
+msgid "Sidebar on pages"
+msgstr ""
+
+#: ../javenist/theme-config.php:1016
+msgid "Blog Sidebar Position"
+msgstr ""
+
+#: ../javenist/theme-config.php:1017
+msgid "Sidebar on Blog pages"
+msgstr ""
+
+#: ../javenist/theme-config.php:1026
+msgid "Custom Sidebars"
+msgstr ""
+
+#: ../javenist/theme-config.php:1027
+msgid "Add more sidebars"
+msgstr ""
+
+#: ../javenist/theme-config.php:1028
+msgid ""
+"Enter sidebar name (Only allow digits and letters). click Add more to add "
+"more sidebar. Edit your page to select a sidebar "
+msgstr ""
+
+#: ../javenist/theme-config.php:1035 ../javenist/woocommerce/cart/cart.php:34
+msgid "Product"
+msgstr ""
+
+#: ../javenist/theme-config.php:1036
+msgid "Use this section to select options for product"
+msgstr ""
+
+#: ../javenist/theme-config.php:1042
+msgid "Shop Layout"
+msgstr ""
+
+#: ../javenist/theme-config.php:1052
+msgid "Shop default view"
+msgstr ""
+
+#: ../javenist/theme-config.php:1062
+msgid "Products per page"
+msgstr ""
+
+#: ../javenist/theme-config.php:1063
+msgid "Amount of products per page on category page"
+msgstr ""
+
+#: ../javenist/theme-config.php:1074
+msgid "Product columns"
+msgstr ""
+
+#: ../javenist/theme-config.php:1075
+msgid "Amount of product columns on category page"
+msgstr ""
+
+#: ../javenist/theme-config.php:1076 ../javenist/theme-config.php:1088
+msgid "Only works with: 1, 2, 3, 4, 6"
+msgstr ""
+
+#: ../javenist/theme-config.php:1086
+msgid "Product columns on full width shop"
+msgstr ""
+
+#: ../javenist/theme-config.php:1087
+msgid "Amount of product columns on full width category page"
+msgstr ""
+
+#: ../javenist/theme-config.php:1098
+msgid "Use secondary product image"
+msgstr ""
+
+#: ../javenist/theme-config.php:1099
+msgid "Show the secondary image when hover on product on list"
+msgstr ""
+
+#: ../javenist/theme-config.php:1105
+msgid "Related amount"
+msgstr ""
+
+#: ../javenist/theme-config.php:1106
+msgid "Amount of product on the related page"
+msgstr ""
+
+#: ../javenist/theme-config.php:1116
+msgid "Show Rating"
+msgstr ""
+
+#: ../javenist/theme-config.php:1117
+msgid "Show rating on all pages"
+msgstr ""
+
+#: ../javenist/theme-config.php:1124
+msgid "background shop product"
+msgstr ""
+
+#: ../javenist/theme-config.php:1130
+msgid "Background"
+msgstr ""
+
+#: ../javenist/theme-config.php:1140
+msgid "Product page"
+msgstr ""
+
+#: ../javenist/theme-config.php:1146
+msgid "ShareThis/AddThis head tag"
+msgstr ""
+
+#: ../javenist/theme-config.php:1147
+msgid "Paste your ShareThis or AddThis head tag here"
+msgstr ""
+
+#: ../javenist/theme-config.php:1153
+msgid "ShareThis/AddThis code"
+msgstr ""
+
+#: ../javenist/theme-config.php:1154
+msgid "Paste your ShareThis or AddThis code here"
+msgstr ""
+
+#: ../javenist/theme-config.php:1161 ../javenist/theme-config.php:1180
+msgid "Quick View"
+msgstr ""
+
+#: ../javenist/theme-config.php:1167
+msgid "View details text"
+msgstr ""
+
+#: ../javenist/theme-config.php:1173
+msgid "View all features text"
+msgstr ""
+
+#: ../javenist/theme-config.php:1174
+msgid "This is the text on quick view box"
+msgstr ""
+
+#: ../javenist/theme-config.php:1181
+msgid "Show quick view button on all pages"
+msgstr ""
+
+#: ../javenist/theme-config.php:1190
+msgid "Use this section to select options for blog"
+msgstr ""
+
+#: ../javenist/theme-config.php:1197
+msgid "Blog header text"
+msgstr ""
+
+#: ../javenist/theme-config.php:1203
+msgid "Blog Layout"
+msgstr ""
+
+#: ../javenist/theme-config.php:1213
+msgid "Read more text"
+msgstr ""
+
+#: ../javenist/theme-config.php:1219
+msgid "Excerpt length on blog page"
+msgstr ""
+
+#: ../javenist/theme-config.php:1230
+msgid "Latest posts carousel"
+msgstr ""
+
+#: ../javenist/theme-config.php:1236
+msgid "Latest posts auto scroll"
+msgstr ""
+
+#: ../javenist/theme-config.php:1266
+msgid "Use this section to select options for Testimonials"
+msgstr ""
+
+#: ../javenist/theme-config.php:1291
+msgid "Error 404 Page"
+msgstr ""
+
+#: ../javenist/theme-config.php:1292
+msgid "Error 404 page options"
+msgstr ""
+
+#: ../javenist/theme-config.php:1299
+msgid "Error 404 background"
+msgstr ""
+
+#: ../javenist/theme-config.php:1308
+msgid "Less Compiler"
+msgstr ""
+
+#: ../javenist/theme-config.php:1309
+msgid ""
+"Turn on this option to apply all theme options. Turn of when you have "
+"finished changing theme options and your site is ready."
+msgstr ""
+
+#: ../javenist/theme-config.php:1315
+msgid "Enable Less Compiler"
+msgstr ""
+
+#: ../javenist/theme-config.php:1322
+msgid "<strong>Theme URL:</strong> "
+msgstr ""
+
+#: ../javenist/theme-config.php:1323
+msgid "<strong>Author:</strong> "
+msgstr ""
+
+#: ../javenist/theme-config.php:1324
+msgid "<strong>Version:</strong> "
+msgstr ""
+
+#: ../javenist/theme-config.php:1328
+msgid "<strong>Tags:</strong> "
+msgstr ""
+
+#: ../javenist/theme-config.php:1333
+msgid "Import / Export"
+msgstr ""
+
+#: ../javenist/theme-config.php:1334
+msgid "Import and Export your Redux Framework settings from file, text or URL."
+msgstr ""
+
+#: ../javenist/theme-config.php:1349
+msgid "Theme Information"
+msgstr ""
+
+#: ../javenist/theme-config.php:1365
+msgid "Theme Information 1"
+msgstr ""
+
+#: ../javenist/theme-config.php:1366 ../javenist/theme-config.php:1372
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../javenist/theme-config.php:1371
+msgid "Theme Information 2"
+msgstr ""
+
+#: ../javenist/theme-config.php:1376
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../javenist/theme-config.php:1396 ../javenist/theme-config.php:1397
+#: ../twentyseventeen/inc/customizer.php:66
+msgid "Theme Options"
+msgstr ""
+
+#: ../javenist/woocommerce/archive-product.php:121
+msgid "View on"
+msgstr ""
+
+#: ../javenist/woocommerce/cart/cart.php:33
+msgid "Image"
+msgstr ""
+
+#: ../javenist/woocommerce/cart/cart.php:35
+msgid "Price"
+msgstr ""
+
+#: ../javenist/woocommerce/cart/cart.php:36
+#: ../javenist/woocommerce/global/quantity-input.php:33
+msgid "Quantity"
+msgstr ""
+
+#: ../javenist/woocommerce/cart/cart.php:37
+msgid "Total"
+msgstr ""
+
+#: ../javenist/woocommerce/cart/cart.php:79
+msgid "Available on backorder"
+msgstr ""
+
+#: ../javenist/woocommerce/cart/cart.php:117
+#: ../javenist/woocommerce/cart/mini-cart.php:72
+msgid "Remove this item"
+msgstr ""
+
+#: ../javenist/woocommerce/cart/cross-sells.php:31
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: ../javenist/woocommerce/cart/mini-cart.php:28
+msgid "My cart"
+msgstr ""
+
+#: ../javenist/woocommerce/cart/mini-cart.php:88
+msgid "Subtotal"
+msgstr ""
+
+#: ../javenist/woocommerce/cart/mini-cart.php:96
+msgid "No products in the cart."
+msgstr ""
+
+#: ../javenist/woocommerce/checkout/form-checkout.php:29
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: ../javenist/woocommerce/checkout/form-checkout.php:48
+msgid "Your order"
+msgstr ""
+
+#: ../javenist/woocommerce/class-wc-widget-cart.php:23
+msgid "Display the user's Cart in the sidebar."
+msgstr ""
+
+#: ../javenist/woocommerce/class-wc-widget-cart.php:25
+msgid "WooCommerce Cart"
+msgstr ""
+
+#: ../javenist/woocommerce/class-wc-widget-cart.php:29
+#: ../javenist/woocommerce/class-wc-widget-cart.php:54
+msgid "Cart"
+msgstr ""
+
+#: ../javenist/woocommerce/class-wc-widget-cart.php:35
+msgid "Hide if cart is empty"
+msgstr ""
+
+#: ../javenist/woocommerce/loop/orderby.php:26
+msgid "Sort By"
+msgstr ""
+
+#: ../javenist/woocommerce/loop/pagination.php:30
+msgid "Page:"
+msgstr ""
+
+#: ../javenist/woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: ../javenist/woocommerce/single-product/add-to-cart/variable.php:43
+msgid "Clear"
+msgstr ""
+
+#: ../javenist/woocommerce/single-product/meta.php:31
+msgid "SKU:"
+msgstr ""
+
+#: ../javenist/woocommerce/single-product/meta.php:31
+msgid "N/A"
+msgstr ""
+
+#: ../javenist/woocommerce/single-product/meta.php:35
+msgid "Category:"
+msgstr ""
+
+#: ../javenist/woocommerce/single-product/meta.php:37
+msgid "Tag:"
+msgstr ""
+
+#: ../javenist/woocommerce/single-product/related.php:31
+msgid "Related products"
+msgstr ""
+
+#: ../javenist/woocommerce/single-product/up-sells.php:31
+msgid "Upsell products"
+msgstr ""
+
+#: ../twentyfifteen/404.php:17 ../twentyseventeen/404.php:21
+#: ../twentysixteen/404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../twentyfifteen/404.php:21 ../twentyseventeen/404.php:24
+#: ../twentysixteen/404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: ../twentyfifteen/archive.php:49 ../twentyfifteen/index.php:46
+#: ../twentyfifteen/search.php:38 ../twentyseventeen/archive.php:45
+#: ../twentyseventeen/index.php:50 ../twentyseventeen/search.php:43
+#: ../twentysixteen/archive.php:49 ../twentysixteen/index.php:46
+#: ../twentysixteen/search.php:37
+msgid "Previous page"
+msgstr ""
+
+#: ../twentyfifteen/archive.php:50 ../twentyfifteen/index.php:47
+#: ../twentyfifteen/search.php:39 ../twentyseventeen/archive.php:46
+#: ../twentyseventeen/index.php:51 ../twentyseventeen/search.php:44
+#: ../twentysixteen/archive.php:50 ../twentysixteen/index.php:47
+#: ../twentysixteen/search.php:38
+msgid "Next page"
+msgstr ""
+
+#: ../twentyfifteen/archive.php:51 ../twentyfifteen/content-link.php:40
+#: ../twentyfifteen/content-page.php:29 ../twentyfifteen/content.php:42
+#: ../twentyfifteen/image.php:63 ../twentyfifteen/index.php:48
+#: ../twentyfifteen/search.php:40 ../twentyseventeen/archive.php:47
+#: ../twentyseventeen/index.php:52 ../twentyseventeen/search.php:45
+#: ../twentysixteen/archive.php:51 ../twentysixteen/image.php:60
+#: ../twentysixteen/index.php:48 ../twentysixteen/search.php:39
+#: ../twentysixteen/template-parts/content-page.php:27
+#: ../twentysixteen/template-parts/content-single.php:29
+#: ../twentysixteen/template-parts/content.php:37
+msgid "Page"
+msgstr ""
+
+#: ../twentyfifteen/author-bio.php:12
+msgid "Published by"
+msgstr ""
+
+#: ../twentyfifteen/comments.php:31 ../twentysixteen/comments.php:31
+#, php-format
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../twentyfifteen/content-link.php:31 ../twentyfifteen/content.php:33
+#: ../twentyfifteen/inc/template-tags.php:238
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: ../twentyfifteen/content-none.php:22
+#: ../twentyseventeen/template-parts/post/content-none.php:23
+#: ../twentysixteen/template-parts/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../twentyfifteen/content-none.php:26 ../twentyseventeen/search.php:50
+#: ../twentysixteen/template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../twentyfifteen/content-none.php:31
+#: ../twentyseventeen/template-parts/post/content-none.php:27
+#: ../twentysixteen/template-parts/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../twentyfifteen/footer.php:25
+#: ../twentyseventeen/template-parts/footer/site-info.php:13
+#: ../twentysixteen/footer.php:51
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: ../twentyfifteen/footer.php:25
+#: ../twentyseventeen/template-parts/footer/site-info.php:13
+#: ../twentysixteen/footer.php:51
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: ../twentyfifteen/functions.php:86 ../twentyseventeen/functions.php:64
+#: ../twentyseventeen/functions.php:194 ../twentysixteen/functions.php:89
+msgid "Social Links Menu"
+msgstr ""
+
+#: ../twentyfifteen/functions.php:160
+msgid "Widget Area"
+msgstr ""
+
+#: ../twentyfifteen/functions.php:162 ../twentysixteen/functions.php:158
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: ../twentyfifteen/functions.php:212
+msgid "no-subset"
+msgstr ""
+
+#: ../twentyfifteen/functions.php:282 ../twentysixteen/functions.php:284
+msgid "expand child menu"
+msgstr ""
+
+#: ../twentyfifteen/functions.php:283 ../twentysixteen/functions.php:285
+msgid "collapse child menu"
+msgstr ""
+
+#: ../twentyfifteen/header.php:26 ../twentyseventeen/header.php:27
+#: ../twentysixteen/header.php:27
+msgid "Skip to content"
+msgstr ""
+
+#: ../twentyfifteen/header.php:45
+msgid "Menu and widgets"
+msgstr ""
+
+#: ../twentyfifteen/image.php:24 ../twentysixteen/image.php:24
+msgid "Previous Image"
+msgstr ""
+
+#: ../twentyfifteen/image.php:24 ../twentysixteen/image.php:25
+msgid "Next Image"
+msgstr ""
+
+#: ../twentyfifteen/image.php:84 ../twentysixteen/image.php:102
+#: ../twentysixteen/single.php:29
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
+"%title</span>"
+msgstr ""
+
+#: ../twentyfifteen/inc/back-compat.php:37
+#: ../twentyfifteen/inc/back-compat.php:47
+#: ../twentyfifteen/inc/back-compat.php:60
+#, php-format
+msgid ""
+"Twenty Fifteen requires at least WordPress version 4.1. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:44
+#: ../twentysixteen/inc/customizer.php:130
+msgid "Base Color Scheme"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:59
+msgid "Header and Sidebar Text Color"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:60
+#: ../twentyfifteen/inc/customizer.php:76
+#: ../twentyfifteen/inc/customizer.php:81
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:75
+msgid "Header and Sidebar Background Color"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:150
+#: ../twentysixteen/inc/customizer.php:253
+msgid "Default"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:161
+#: ../twentyseventeen/inc/customizer.php:49
+#: ../twentysixteen/inc/customizer.php:263
+msgid "Dark"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:172
+#: ../twentysixteen/inc/customizer.php:293
+msgid "Yellow"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:183
+msgid "Pink"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:194
+msgid "Purple"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:205
+msgid "Blue"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:23
+msgid "Comment navigation"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:26
+msgid "Older Comments"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:49
+#: ../twentysixteen/template-parts/content.php:14
+msgid "Featured"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:55
+#: ../twentysixteen/inc/template-tags.php:38
+msgid "Format"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:76
+#: ../twentysixteen/inc/template-tags.php:79
+msgid "Posted on"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:85
+#: ../twentysixteen/inc/template-tags.php:25
+msgid "Author"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:91
+#: ../twentyfifteen/inc/template-tags.php:99
+#: ../twentyseventeen/inc/template-tags.php:65
+#: ../twentysixteen/inc/template-tags.php:95
+#: ../twentysixteen/inc/template-tags.php:103
+msgid ", "
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:94
+#: ../twentyseventeen/inc/template-tags.php:84
+#: ../twentysixteen/inc/template-tags.php:98
+msgid "Categories"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:113
+msgid "Full size"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:123
+#: ../twentysixteen/inc/template-tags.php:50
+#, php-format
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: ../twentyfifteen/single.php:34 ../twentysixteen/single.php:35
+msgid "Next post:"
+msgstr ""
+
+#: ../twentyfifteen/single.php:37 ../twentysixteen/single.php:38
+msgid "Previous post:"
+msgstr ""
+
+#: ../twentyseventeen/comments.php:36
+#, php-format
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../twentyseventeen/functions.php:151
+msgid "Espresso"
+msgstr ""
+
+#: ../twentyseventeen/functions.php:155
+msgid "Sandwich"
+msgstr ""
+
+#: ../twentyseventeen/functions.php:159
+msgid "Coffee"
+msgstr ""
+
+#: ../twentyseventeen/functions.php:317
+msgid ""
+"Add widgets here to appear in your sidebar on blog posts and archive pages."
+msgstr ""
+
+#: ../twentyseventeen/functions.php:325
+msgid "Footer 1"
+msgstr ""
+
+#: ../twentyseventeen/functions.php:327 ../twentyseventeen/functions.php:337
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: ../twentyseventeen/functions.php:335
+msgid "Footer 2"
+msgstr ""
+
+#: ../twentyseventeen/functions.php:363
+#: ../twentyseventeen/template-parts/page/content-front-page-panels.php:43
+#: ../twentyseventeen/template-parts/page/content-front-page.php:40
+#: ../twentyseventeen/template-parts/post/content-audio.php:83
+#: ../twentyseventeen/template-parts/post/content-gallery.php:70
+#: ../twentyseventeen/template-parts/post/content-image.php:59
+#: ../twentyseventeen/template-parts/post/content-video.php:82
+#: ../twentyseventeen/template-parts/post/content.php:56
+#: ../twentysixteen/inc/template-tags.php:184
+#: ../twentysixteen/template-parts/content.php:28
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: ../twentyseventeen/functions.php:445
+msgid "Expand child menu"
+msgstr ""
+
+#: ../twentyseventeen/functions.php:446
+msgid "Collapse child menu"
+msgstr ""
+
+#: ../twentyseventeen/inc/back-compat.php:39
+#: ../twentyseventeen/inc/back-compat.php:51
+#: ../twentyseventeen/inc/back-compat.php:66
+#, php-format
+msgid ""
+"Twenty Seventeen requires at least WordPress version 4.7. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+
+#: ../twentyseventeen/inc/custom-header.php:49
+msgid "Default Header Image"
+msgstr ""
+
+#: ../twentyseventeen/inc/custom-header.php:119
+msgid "Play background video"
+msgstr ""
+
+#: ../twentyseventeen/inc/custom-header.php:120
+msgid "Pause background video"
+msgstr ""
+
+#: ../twentyseventeen/inc/customizer.php:46
+msgid "Color Scheme"
+msgstr ""
+
+#: ../twentyseventeen/inc/customizer.php:48
+msgid "Light"
+msgstr ""
+
+#: ../twentyseventeen/inc/customizer.php:50
+msgid "Custom"
+msgstr ""
+
+#: ../twentyseventeen/inc/customizer.php:80
+msgid ""
+"When the two-column layout is assigned, the page title is in one column and "
+"content is in the other."
+msgstr ""
+
+#: ../twentyseventeen/inc/customizer.php:82
+#: ../twentyseventeen/inc/customizer.php:131
+msgid "One Column"
+msgstr ""
+
+#: ../twentyseventeen/inc/customizer.php:83
+#: ../twentyseventeen/inc/customizer.php:132
+msgid "Two Column"
+msgstr ""
+
+#: ../twentyseventeen/inc/customizer.php:107
+#, php-format
+msgid "Front Page Section %d Content"
+msgstr ""
+
+#: ../twentyseventeen/inc/customizer.php:108
+msgid ""
+"Select pages to feature in each area from the dropdowns. Add an image to a "
+"section by setting a featured image in the page editor. Empty sections will "
+"not be displayed."
+msgstr ""
+
+#: ../twentyseventeen/inc/icon-functions.php:39
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: ../twentyseventeen/inc/icon-functions.php:44
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: ../twentyseventeen/inc/template-tags.php:21
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: ../twentyseventeen/inc/template-tags.php:51
+#, php-format
+msgid "<span class=\"screen-reader-text\">Posted on</span> %s"
+msgstr ""
+
+#: ../twentyseventeen/inc/template-tags.php:116 ../twentysixteen/image.php:84
+#: ../twentysixteen/template-parts/content-page.php:37
+#: ../twentysixteen/template-parts/content-search.php:28
+#: ../twentysixteen/template-parts/content-search.php:43
+#: ../twentysixteen/template-parts/content-single.php:45
+#: ../twentysixteen/template-parts/content.php:49
+#, php-format
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: ../twentyseventeen/inc/template-tags.php:150
+#, php-format
+msgid "Front Page Section %1$s Placeholder"
+msgstr ""
+
+#: ../twentyseventeen/index.php:27
+msgid "Posts"
+msgstr ""
+
+#: ../twentyseventeen/searchform.php:17 ../twentysixteen/searchform.php:13
+msgid "Search for:"
+msgstr ""
+
+#: ../twentyseventeen/searchform.php:20 ../twentysixteen/searchform.php:16
+msgid "Search"
+msgstr ""
+
+#: ../twentyseventeen/single.php:31
+msgid "Previous Post"
+msgstr ""
+
+#: ../twentyseventeen/single.php:32
+msgid "Next Post"
+msgstr ""
+
+#: ../twentyseventeen/template-parts/header/site-branding.php:34
+#: ../twentyseventeen/template-parts/navigation/navigation-top.php:27
+msgid "Scroll down to content"
+msgstr ""
+
+#: ../twentysixteen/functions.php:166
+msgid "Content Bottom 1"
+msgstr ""
+
+#: ../twentysixteen/functions.php:168 ../twentysixteen/functions.php:178
+msgid "Appears at the bottom of the content on posts and pages."
+msgstr ""
+
+#: ../twentysixteen/functions.php:176
+msgid "Content Bottom 2"
+msgstr ""
+
+#: ../twentysixteen/inc/back-compat.php:41
+#: ../twentysixteen/inc/back-compat.php:53
+#: ../twentysixteen/inc/back-compat.php:68
+#, php-format
+msgid ""
+"Twenty Sixteen requires at least WordPress version 4.4. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+
+#: ../twentysixteen/inc/customizer.php:145
+msgid "Page Background Color"
+msgstr ""
+
+#: ../twentysixteen/inc/customizer.php:172
+msgid "Main Text Color"
+msgstr ""
+
+#: ../twentysixteen/inc/customizer.php:184
+msgid "Secondary Text Color"
+msgstr ""
+
+#: ../twentysixteen/inc/customizer.php:273
+msgid "Gray"
+msgstr ""
+
+#: ../twentysixteen/inc/customizer.php:283
+msgid "Red"
+msgstr ""
+
+#: ../twentysixteen/template-parts/biography.php:28
+msgid "Author:"
+msgstr ""
