@@ -6,7 +6,7 @@ COPY php.ini /usr/local/etc/php/
 
 RUN docker-php-source extract && \
     pecl bundle -d /usr/src/php/ext redis && rm /usr/src/php/ext/redis-*.tgz && \
-    apk add --update --no-cache ca-certificates git zlib-dev supervisor bash && \
+    apk add --update --no-cache ca-certificates git libzip-dev supervisor bash && \
     apk add --no-cache --virtual .phpize-deps $PHPIZE_DEPS && \
     pecl install redis && \
     docker-php-ext-enable redis && \
