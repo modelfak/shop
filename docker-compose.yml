@@ -46,6 +46,8 @@ services:
       DB_HOST: ${MYSQL_HOST}
       DB_USER: ${MYSQL_USER}
       DB_NAME: ${MYSQL_DATABASE}
+    depends_on:
+      - db
 networks:
   default:
     external:
