@@ -58,6 +58,7 @@ services:
       - db
     networks:
       - default
+      - nginx-proxy
 networks:
   nginx-proxy:
     external: true    
