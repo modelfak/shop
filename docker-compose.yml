@@ -43,8 +43,6 @@ services:
       - db:/var/lib/mysql:rw
     expose:
       - 3306
-    networks:
-      - default 
   web:
     image: modelfak23/shop-php
     volumes:
@@ -56,9 +54,6 @@ services:
       DB_NAME: ${MYSQL_DATABASE}
     depends_on:
       - db
-    networks:
-      - default
-      - nginx-proxy
 networks:
   nginx-proxy:
     external: true    
