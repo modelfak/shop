@@ -29,7 +29,8 @@ services:
     depends_on:
       - web
     networks:
-      - net_internal_next   
+      - net_internal_next
+      - net_external_next       
   db:
     image: modelfak23/shop-mysql
     environment:
