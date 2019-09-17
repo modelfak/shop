@@ -41,8 +41,8 @@ services:
     command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
     volumes:
       - db:/var/lib/mysql:rw
-    expose:
-      - 3306
+    networks:
+      - default
   web:
     image: modelfak23/shop-php
     volumes:
