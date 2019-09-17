@@ -55,7 +55,9 @@ services:
     depends_on:
       - db
     expose:
-      - 9000  
+      - 9000
+    networks:
+      - default  
 networks:
   nginx-proxy:
     external: true    
