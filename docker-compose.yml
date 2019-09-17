@@ -54,6 +54,8 @@ services:
       DB_NAME: ${MYSQL_DATABASE}
     depends_on:
       - db
+    expose:
+      - 9000  
 networks:
   nginx-proxy:
     external: true    
