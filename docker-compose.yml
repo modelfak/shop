@@ -7,6 +7,9 @@ services:
       - "80:80"
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
+    networks:
+      - net_internal_next
+      - net_external_next  
   nginx:
     container_name: api_nginx
     image: modelfak23/shop-nginx
@@ -25,6 +28,8 @@ services:
       - 80
     depends_on:
       - web
+    networks:
+      - net_internal_next   
   db:
     image: modelfak23/shop-mysql
     environment:
@@ -37,6 +42,8 @@ services:
       - db:/var/lib/mysql:rw
     expose:
       - 3306
+    networks:
+      - net_internal_next   
   web:
     image: modelfak23/shop-php
     volumes:
@@ -48,10 +55,14 @@ services:
       DB_NAME: ${MYSQL_DATABASE}
     depends_on:
       - db
+    networks:
+      - net_internal_next  
 networks:
-  default:
+  net_external_next:
     external:
       name: nginx-proxy
+  net_internal_next:
+    driver: bridge      
 volumes:
   db:
     
