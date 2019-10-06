@@ -17,6 +17,8 @@ services:
     networks:
       - nginx-proxy
       - default
+    environment:
+      DHPARAM_GENERATION: null
   letsencrypt:
     image: jrcs/letsencrypt-nginx-proxy-companion
     container_name: nginx-proxy-le
@@ -35,6 +37,7 @@ services:
     image: modelfak23/shop-nginx
     environment:
       - VIRTUAL_HOST=${NGINX_HOST}
+      - LETSENCRYPT_HOST=${NGINX_HOST}
     volumes:
       - ./.logs/nginx:/var/log/nginx
       - ./app-php:/var/www/html
