@@ -4,13 +4,32 @@ services:
     image: jwilder/nginx-proxy
     container_name: nginx-proxy
     ports:
-      - "80:80"
+      - 80:80
+      - 443:443
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
-      - ./containers/proxy/vhost.d:/etc/nginx/vhost.d:ro
+      - conf:/etc/nginx/conf.d
+      - certs:/etc/nginx/certs:ro
+      - vhost:/etc/nginx/vhost.d
+      - html:/usr/share/nginx/html
+      - dhparam:/etc/nginx/dhparam
+      - ./containers/proxy/vhost.d:/etc/nginx/vhost.d:rw
     networks:
       - nginx-proxy
-      - default  
+      - default
+  letsencrypt:
+    image: jrcs/letsencrypt-nginx-proxy-companion
+    container_name: nginx-proxy-le
+    volumes:
+      - conf:/etc/nginx/conf.d
+      - certs:/etc/nginx/certs
+      - vhost:/etc/nginx/vhost.d
+      - html:/usr/share/nginx/html
+      - dhparam:/etc/nginx/dhparam
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    network_mode: default
+    environment:
+      NGINX_PROXY_CONTAINER: nginx-proxy
   nginx:
     container_name: api_nginx
     image: modelfak23/shop-nginx
@@ -27,6 +46,7 @@ services:
 #      - 443:443
     expose:
       - 80
+      - 443
     depends_on:
       - web
     networks:
