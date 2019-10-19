@@ -32,56 +32,56 @@ services:
     network_mode: default
     environment:
       NGINX_PROXY_CONTAINER: nginx-proxy
-  nginx:
-    container_name: api_nginx
-    image: modelfak23/shop-nginx
-    environment:
-      - VIRTUAL_HOST=${NGINX_HOST}
-      - LETSENCRYPT_HOST=${NGINX_HOST}
-    volumes:
-      - ./.logs/nginx:/var/log/nginx
-      - ./app-php:/var/www/html
-      - ./containers/nginx/nginx.conf:/etc/nginx/nginx.conf
-      - ./containers/nginx/sites/:/etc/nginx/sites-available
-      - ./containers/nginx/conf.d/:/etc/nginx/conf.d
-#    ports:
-#      - 80:80
-#      - 443:443
-    expose:
-      - 80
-      - 443
-    depends_on:
-      - web
-    networks:
-      - default
-      - nginx-proxy
-  db:
-    image: modelfak23/shop-mysql
-    environment:
-      MYSQL_ROOT_PASSWORD: root_mysql
-      MYSQL_DATABASE: ${MYSQL_DATABASE}
-      MYSQL_USER: ${MYSQL_USER}
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
-    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
-    volumes:
-      - db:/var/lib/mysql:rw
-    networks:
-      - default
-  web:
-    image: modelfak23/shop-php
-    volumes:
-      - ./app-php:/var/www/html
-    environment:
-      DB_PASSWORD: ${MYSQL_PASSWORD}
-      DB_HOST: ${MYSQL_HOST}
-      DB_USER: ${MYSQL_USER}
-      DB_NAME: ${MYSQL_DATABASE}
-    depends_on:
-      - db
-    expose:
-      - 9000
-    networks:
-      - default  
+#  nginx:
+#    container_name: api_nginx
+#    image: modelfak23/shop-nginx
+#    environment:
+#      - VIRTUAL_HOST=${NGINX_HOST}
+#      - LETSENCRYPT_HOST=${NGINX_HOST}
+#    volumes:
+#      - ./.logs/nginx:/var/log/nginx
+#      - ./app-php:/var/www/html
+#      - ./containers/nginx/nginx.conf:/etc/nginx/nginx.conf
+#      - ./containers/nginx/sites/:/etc/nginx/sites-available
+#      - ./containers/nginx/conf.d/:/etc/nginx/conf.d
+##    ports:
+##      - 80:80
+##      - 443:443
+#    expose:
+#      - 80
+#      - 443
+#    depends_on:
+#      - web
+#    networks:
+#      - default
+#      - nginx-proxy
+#  db:
+#    image: modelfak23/shop-mysql
+#    environment:
+#      MYSQL_ROOT_PASSWORD: root_mysql
+#      MYSQL_DATABASE: ${MYSQL_DATABASE}
+#      MYSQL_USER: ${MYSQL_USER}
+#      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+#    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+#    volumes:
+#      - db:/var/lib/mysql:rw
+#    networks:
+#      - default
+#  web:
+#    image: modelfak23/shop-php
+#    volumes:
+#      - ./app-php:/var/www/html
+#    environment:
+#      DB_PASSWORD: ${MYSQL_PASSWORD}
+#      DB_HOST: ${MYSQL_HOST}
+#      DB_USER: ${MYSQL_USER}
+#      DB_NAME: ${MYSQL_DATABASE}
+#    depends_on:
+#      - db
+#    expose:
+#      - 9000
+#    networks:
+#      - default
 networks:
   nginx-proxy:
     external: true    
